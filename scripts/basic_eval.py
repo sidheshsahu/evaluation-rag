@@ -5,7 +5,7 @@ from deepeval.test_case import LLMTestCase
 from deepeval.metrics import AnswerRelevancyMetric
 
 model = GeminiModel(
-    model="gemini-3.6-flash",
+    model="gemini-3.6-pro",
     api_key=os.getenv('GOOGLE_API_KEY'),
     temperature=0,
 )
